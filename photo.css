@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+#photos{
+    background-color: aqua;
+    font-family: fantasy;
+    
+}
+.line{
+    background-color: black;
+    height: 6px;
+    width: 70px;
+    margin:8px auto;
+    
+}
+#games{
+    background-color: cornflowerblue;
+    
+}
+img{
+    transition: transform .2s;
+    height:200;
+    width:200;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
